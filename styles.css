@@ -103,3 +103,89 @@ ul li a:hover {
 .details {
   padding: 50px 50px;
 }
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+  .info h1 {
+    font-size: 50px;
+  }
+
+  .info h3 {
+    font-size: 18px;
+  }
+
+  .work img {
+    width: 75%;
+  }
+
+  .landing-caption,
+  .weather-caption {
+    font-size: 20px;
+    padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  ul li {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .info {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .info h1 {
+    font-size: 40px;
+  }
+
+  .info h3 {
+    font-size: 16px;
+  }
+
+  .work img {
+    width: 85%;
+    padding: 20px;
+  }
+
+  .landing-caption,
+  .weather-caption {
+    font-size: 18px;
+    padding: 0 50px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .info h1 {
+    font-size: 30px;
+  }
+
+  .info h3 {
+    font-size: 14px;
+  }
+
+  .work h3 {
+    font-size: 25px;
+  }
+
+  .work p {
+    font-size: 16px;
+  }
+
+  .work img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .landing-caption,
+  .weather-caption {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+}
